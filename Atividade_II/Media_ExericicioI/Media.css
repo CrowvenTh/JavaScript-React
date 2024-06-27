@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: rgb(105, 75, 37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content{
+    padding: 12px;
+    color: aliceblue;
+    background-color:rgb(55, 40, 19);
+    border-color: black;
+    border-radius: 22px;
+    width: 650px;
+    margin: auto;
+}
+input{
+    border-radius: 8px;
+}
+button{
+    border-radius: 6px;
+    color: rgb(68, 33, 0);
+    margin-top: 18px;
+}
+#resultado{
+    margin-top: 15px;
+}
