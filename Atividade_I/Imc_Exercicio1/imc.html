@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="imc.js"></script>
+    <link rel="stylesheet" href="imc.css">
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <div>
+        <label>
+            <br>
+            <h1> Calculando o IMC </h1>
+            <P>Selecione seu gênero</P>
+            <input type="radio" id="masc" name="sexo" placeholder="Insira Seu gênero">Masculino</input>
+            <input type="radio" id="fem" name="sexo" placeholder="Insira Seu gênero">Feminino</input>
+            <br>
+            <p>Insira sua idade</p>
+            <input type="number" id="idade" placeholder="Insira sua resposta...">
+            <br>
+            <p>Insira sua Altura(cm)</p>
+            <input type="number" id="altura" placeholder="Insira sua resposta...">
+            <br>
+            <p>Insira seu peso corporal(kg)</p>
+            <input type="number" id="peso" placeholder="Insira sua resposta...">
+            <br>
+            <p></p>
+            <br>
+            <button onclick="CalcularIMC()">Calcular IMC</button>
+            <button id="reset-button" onclick="LimparCampos()">Limpar Campos</button>
+            <h2 id="resultado">Resultado</h2>
+            <br>
+        </label>
+    </div>
+</body>
+
+</html>

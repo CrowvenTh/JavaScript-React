@@ -1,0 +1,41 @@
+body {
+    background-color: #605d63;
+    color: #d7d7d7;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+div{
+    background-color: #181818;
+    width: 750px;
+    border-radius: 15px;
+    padding: 20px;
+}
+input{
+    border-color: #605d63;
+    border-radius: 8px;
+    border: #181818;
+}
+#Convert-button{
+    background-color: #181818;
+    border-color: #181818;
+    border-radius: 8px;
+    color: #d7d7d7;
+}
+#Convert-button:hover{
+    background-color: #d7d7d7;
+    color: #181818;
+    cursor: pointer;
+}
+p{
+    background-color: #181818;
+    border-color: #181818;
+    border-radius: 8px;
+}
+tr, td{
+    padding: 12px;
+}
+table{
+    width: 510px;
+}

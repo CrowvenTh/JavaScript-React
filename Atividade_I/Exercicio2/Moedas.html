@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="Moedas.css">
+    <script src="Moedas.js"></script>
+</head>
+
+<body>
+    <div>
+        <label>
+            <br>
+            <h1> Convertendo Moedas </h1>
+            <p>Insira o valor</p>
+            <input type="number" id="insert" placeholder="R$">
+            <button id="Convert-button" onclick="ConverterMoedas()">Converter</button>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <th>Moeda</th>
+                    <th>Descrição</th>
+                    <th>Conversão BRL</th>
+                </tr>
+                <br>
+                <tr>
+                    <td id="dolar" onclick="ConverterMoedas()">USD</td>
+                    <td>Dólar</td>
+                    <td id="dolarResult"> - </td>
+                </tr>
+                <tr>
+                    <td id="euro" onclick="ConverterMoedas()">EUR</td>
+                    <td>Euro</td>
+                    <td id="euroResult"> - </td>
+                </tr>
+                <tr>
+                    <td id="pesoArgentino" onclick="ConverterMoedas()">ARS</td>
+                    <td>Peso Argentino</td>
+                    <td id="pesoArgentinoResult"> - </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+        </label>
+    </div>
+</body>
+
+</html>
