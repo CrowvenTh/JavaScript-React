@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(2, 45, 2);
+    color: rgb(233, 233, 233);
+    text-align: center;
+}
+input{
+    border-radius: 6px;
+    width: 250px;
+}
+button{
+    border-radius: 6px;
+    color: rgb(2, 45, 2);
+    width: 150px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(2, 45, 2);
+    color: rgb(233, 233, 233);
+    border-color: rgb(233, 233, 233);
+    width: 155px;
+    height: 35px;
+}

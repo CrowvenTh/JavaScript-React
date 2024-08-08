@@ -1,0 +1,14 @@
+Faça um programa em js com html e css que receba como dados
+de entrada a pontuação de multas recebidas pelo condutor.
+e mostre como resultado:
+a) Qual a divida total do condutor em R$;
+b) Qual foi o valor da multa mais cara;
+c) A lista das multas recebidas.
+-
+Pontuação e valor
+Leve
+125,00
+Grave
+205,00
+Gravissima
+450,00
