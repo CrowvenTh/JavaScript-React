@@ -1,0 +1,6 @@
+Atividade:
+Faça um programa em javaScript que receba como dados de entrada
+o valor de uma compra, e mostre como resultado:
+o valor da compra com desconto de:
+5% se a compra tiver um valor maior ou igual a R$500
+10% se a compra tiver um valor menor que R$500

@@ -1,2 +1,0 @@
-Permita que os usuários insiram um valor em uma moeda e, ao pressionar um botão, converta-o 
-para outra moeda com base na taxa de câmbio atual.
