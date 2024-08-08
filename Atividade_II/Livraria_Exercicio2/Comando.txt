@@ -1,3 +1,0 @@
-Faça um programa que receba como dados de entrada o nome do livro e do autor e a nota de avaliação 
-de vários livros e mostre como resultado o a lista com o nome a avaliação de cada livro cadastrado 
-bem como o livro que teve a melhor avaliação.

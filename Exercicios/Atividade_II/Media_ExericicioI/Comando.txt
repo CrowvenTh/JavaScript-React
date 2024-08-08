@@ -1,0 +1,2 @@
+Faça um programa que receba como dados de entrada o duas notas de varios alunos
+ e mostre como resultado o a lista com o nome as notas e a media de cada aluno 

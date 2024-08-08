@@ -1,0 +1,60 @@
+<!-- 
+Faça um programa que receba como dados de entrada o duas notas de varios alunos
+ e mostre como resultado o a lista com o nome as notas e a media de cada aluno 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Alunos</title>
+    <script src="MediaTurma.js"></script>
+    <link rel="stylesheet" href="Media.css">
+</head>
+    <!-- <style>
+        body{
+            text-align: center;
+            background-color: rgb(105, 75, 37);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #content{
+            padding: 12px;
+            color: aliceblue;
+            background-color:rgb(55, 40, 19);
+            border-color: black;
+            border-radius: 22px;
+            width: 650px;
+            margin: auto;
+        }
+        input{
+            border-radius: 8px;
+        }
+        button{
+            border-radius: 6px;
+            color: rgb(68, 33, 0);
+            margin-top: 18px;
+        }
+        #resultado{
+            margin-top: 15px;
+        }
+    </style> -->
+<body>
+    <div id="content">
+        <h2>Insira o nome do aluno</h2>
+        <input type="text" id="nome">
+        <br>
+        <h2>Insira a Nota 1</h2>
+        <input type="number" id="n1">
+        <br>
+        <h2>Insira a Nota 2</h2>
+        <input type="number" id="n2">
+        <br>
+        <button onclick="CalcularNota()">Calcular Média</button>
+        <br>
+            <div id="resultados"></div>
+            <p id="mediaTurma"></p>
+        <br>
+    </div>
+</body>
+</html>

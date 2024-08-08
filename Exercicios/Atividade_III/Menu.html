@@ -1,0 +1,100 @@
+<!-- Criar um sistema de pedidos para um restaurante usando HTML, CSS e JavaScript. 
+O sistema consistirá em um menu de itens que os clientes podem selecionar e 
+um contador que exibirá o total de itens pedidos. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restaurante</title>
+    <link rel="stylesheet" href="Menu.css">
+    <Script src="Menu.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <table>
+            <tr>
+                <thead>Menu</thead>
+            </tr>
+            <br>
+            <tr style="background-color: rgb(63, 115, 117);">
+                <th>Cod</th>
+                <th>Item</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Suco 250ml</td>
+                <td>R$ 4,99</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Água 500ml</td>
+                <td>R$ 1,50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Refrigerante 600ml</td>
+                <td>R$ 6,90</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Espetinho</td>
+                <td>R$ 9,80</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Marmita</td>
+                <td>R$ 12,50</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Jantar</td>
+                <td>R$ 18,80</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Sobremesa</td>
+                <td>R$ 13,90</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    ------------------------------------------------------------------------------------------------
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="AdicionarItens()">Adicionar</button>
+                </td>
+                <td>
+                    <input type="number" id="item">
+                </td>
+                <td> Selecione o código do pedido</td>
+            </tr>
+            <tr>
+                <td colspan="3">------------------------------------------ Comanda
+                    -----------------------------------------</td>
+            </tr>
+            <tr style="background-color: rgb(63, 115, 117);">
+                <td>N° de Pedidos </td>
+                <td>Descrição</td>
+                <td>Total</td>
+            </tr>
+
+
+            <tr>
+                <td id="qtdPedidos"> - </td>
+                <td id="desc"> - </td>
+                <td id="somaTotal"> - </td>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <br>
+</body>
+
+</html>

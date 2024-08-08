@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: rgb(52, 112, 139);
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+}
+.container{
+    background-color: cadetblue;
+    border-radius: 9px;
+    margin: auto;
+    width: 650px;
+}
+table,td{
+    text-align: center;
+    margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+table{
+    width: 520px;
+}
+button{
+    border-color: white;
+    color: rgb(50, 96, 98);
+    width: 100%;
+}
+input{
+    border-color: aliceblue;
+    width: 95%;
+}

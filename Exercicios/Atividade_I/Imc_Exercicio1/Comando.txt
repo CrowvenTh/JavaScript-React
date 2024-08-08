@@ -1,0 +1,2 @@
+Permita que os usuários insiram seu peso e altura e ao pressionar um botão, calcule e exiba o 
+Índice de Massa Corporal (IMC).

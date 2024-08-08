@@ -1,0 +1,56 @@
+<!-- 2. Faça um programa que receba como dados de entrada o nome do livro e do autor e a nota de avaliação
+de vários livros
+e mostre como resultado o a lista com o nome a avaliação de cada livro cadastrado bem como o livro que teve a melhor avaliação.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script src="livraria.js"></script>
+        <link rel="stylesheet" href="livraria.css">
+</head>
+<!-- <style>
+    body{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(92, 23, 23);
+    }
+    div{
+        background-color:rgb(63, 19, 19);
+        color: aliceblue;
+        border-radius: 12px;
+        width: 650px;
+        margin: auto;
+    }
+    input{
+        border-radius: 16px;
+    }
+    button{
+        border-radius: 12px;
+        border-color: rgb(63, 19, 19);
+    }
+</style> -->
+<body>
+    <div>
+        <br>
+    <P>Insira o nome do livro</P>
+    <input type="text" id="livro">
+    <p>Insira o nome do autor</p>
+    <input type="text" id="autor">
+    <p>Insira a avaliação do livro</p>
+    <input type="number" id="avaliacao">
+    <br>
+    <br>
+        <button onclick="Avaliar()">Enviar</button>
+        <br>
+        <p id="resultado"></p>
+        <br>
+        <p id="melhorav"></p>
+        <br>
+    </div>
+</body>
+</html>
+

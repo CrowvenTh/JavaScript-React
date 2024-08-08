@@ -1,3 +1,0 @@
-Criar um sistema de pedidos para um restaurante usando HTML, CSS e JavaScript. 
-O sistema consistirá em um menu de itens que os clientes podem selecionar e 
-um contador que exibirá o total de itens pedidos.
